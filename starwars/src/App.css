@@ -6,3 +6,22 @@
   text-shadow: 1px 1px 5px #fff;
 }
 /* write your parent styles in here for your App.js */
+
+.card-list {
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+.char-card {
+  background-color: rgba(50, 50, 50, 50%);
+  padding: 10px;
+  border: 1px solid rgb(71, 71, 71);
+  border-radius: 5px;
+  
+  max-width: 800px;
+}
+
+.phys-details {
+  display: flex;
+  justify-content: space-around;
+}
